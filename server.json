@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.thecubbieclub/offers",
+  "title": "Cubbie Club Offers",
+  "description": "Baby & kids brand discount codes from Cubbie Club. Search by brand or keyword for a deal link.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thecubbieclub.com/api/mcp"
+    }
+  ]
+}
